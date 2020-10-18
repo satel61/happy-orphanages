@@ -34,6 +34,19 @@ map.on('click',(event) => {
 
 })
 
+//valida se o formulario foi preenchido
+function validate(event) {
+    //validar se lat e lng estao preenchidos
+    const lat = document.querySelector('[name=lat]').value
+    const lng = document.querySelector('[name=lng]').value
+
+
+    if(lat == "" && lng == ""){
+        event.preventDefault()
+        alert("SELECIONE UM PONTO NO MAPA")
+    }
+}
+
 //select de photos
 
 function addPhotoField(){
@@ -95,4 +108,6 @@ function toggleSelect(event){
     //verificar se sim ou nao
     input.value = button.dataset.value
 }
+
+
 
