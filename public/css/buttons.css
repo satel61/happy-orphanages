@@ -6,7 +6,7 @@
     border:0;
 
     cursor: pointer;
-    background: #3cdc8c;
+    background: #800080;
     border-radius: 2rem;
     color: white;
 
@@ -20,7 +20,7 @@
 }
 
 .primary-button:hover {
-    background: #36cf82;
+    background: #993399;
 }
 
 .primary-button img {
