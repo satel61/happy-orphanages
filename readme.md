@@ -51,7 +51,7 @@ $ npm start
 
 - Abra o seu navegador com o seguinte link:
  ```
-http://localhost:5500/
+http://localhost:3300/
  ```
 
 Desenvolvido By: Maycon Satel
